@@ -1,9 +1,8 @@
 spring:
   datasource:
-    url: 'jdbc:postgresql://localhost:5432/zadb'
+    url: 'jdbc:postgresql://localhost:5432/zadb?currentSchema=za'
     username: 'postgres'
     password: 'postgrespass'
   flyway:
     baseline-on-migrate: true
     schemas: 'za'
-
