@@ -16,7 +16,7 @@ fun main(args: Array<String>) {
 @RestController
 class MessageResource {
 
-    @GetMapping
+    @GetMapping("/")
     fun index(): List<Message> = listOf(
         Message("1", "hello!"),
         Message("2", "hi!")
