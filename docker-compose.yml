@@ -11,7 +11,26 @@ services:
       options:
         max-size: 10m
         max-file: "3"
+    user: postgres
     ports:
       - '5432:5432'
     volumes: 
       - ./postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready", "-d", "zadb"]
+      interval: 5s
+      timeout: 20s
+      retries: 5
+      start_period: 20s 
+  za-app:
+    image: com.github.mikesmithgh/za:0.0.1-SNAPSHOT
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - '8080:8080'
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/zadb?currentSchema=za
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=postgrespass
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update

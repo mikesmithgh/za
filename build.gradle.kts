@@ -1,10 +1,15 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import org.jetbrains.kotlin.com.google.common.collect.ImmutableMap
+
 
 plugins {
     id("org.springframework.boot") version "3.1.0"
     id("io.spring.dependency-management") version "1.1.0"
     kotlin("jvm") version "1.8.21"
     kotlin("plugin.spring") version "1.8.21"
+    id("com.palantir.docker") version "0.35.0"
+    id("com.palantir.docker-run") version "0.35.0"
+    id("com.palantir.docker-compose") version "0.35.0"
 }
 
 group = "com.github.mikesmithgh"
@@ -16,7 +21,6 @@ repositories {
 }
 
 dependencies {
-    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.springframework.boot:spring-boot-starter-data-jdbc")
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
@@ -36,3 +40,22 @@ tasks.withType<KotlinCompile> {
 tasks.withType<Test> {
     useJUnitPlatform()
 }
+
+apply(plugin = "com.palantir.docker")
+
+val dockerImageName = "com.github.mikesmithgh/za"
+
+dockerRun {
+    name = "za"
+    image = "com.github.mikesmithgh/za:".plus(version)
+    ports("8080:8080")
+}
+
+docker {
+    name = "com.github.mikesmithgh/za:".plus(version)
+    tag("name", "za")
+    buildArgs(ImmutableMap.of("name", "za"))
+    copySpec.from("build").into("build")
+    setDockerfile(file("Dockerfile"))
+}
+

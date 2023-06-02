@@ -14,7 +14,7 @@ class UserController(val service: UserService) {
     fun getUsers(): List<UserModel> = service.getUsers()
 
     @PostMapping("/user")
-    fun addUser(@RequestBody user: UserModel): UserModel = service.addUser(user)
+    fun addUser(@RequestBody user: UserModel) = service.addUser(user)
 
 }
 

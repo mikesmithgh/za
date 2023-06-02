@@ -7,5 +7,5 @@ import org.springframework.stereotype.Service
 @Service
 class ToppingService(val db: ToppingRepository) {
     fun getToppings(): List<ToppingModel> = db.getToppings()
-    fun addTopping(topping: ToppingModel): ToppingModel = db.save(topping)
+    fun addTopping(topping: ToppingModel) = db.saveIgnoreExists(topping.name)
 }
