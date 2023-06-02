@@ -1,26 +1,7 @@
 # 🍕 za
 A simple pizza topping tracking system.
-```
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬛⬛⬛⬛⬛🟫🟫🟫🟫🟫🟫🟫🟫⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛🟫🟫🟫🟫🟫🟫🟫🟫⬛⬛⬛⬛⬛⬛
-⬛⬛🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫⬛⬛🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫⬛⬛
-⬛⬛🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫⬛⬛🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫⬛⬛
-⬛⬛🟫🟫🟫🟨🟨🟨🟥🟥🟥🟨🟨🟨🟨🟫🟫🟫⬛⬛🟫🟫🟫🟨🟨🟨🟥🟥🟥🟨🟨🟨🟨🟫🟫🟫⬛⬛
-⬛⬛⬛🟨🟨🟨🟨🟨🟥🟥🟥🟨🟨🟨🟨🟥🟥⬛⬛⬛⬛🟨🟨🟨🟨🟨🟥🟥🟥🟨🟨🟨🟨🟥🟥⬛⬛⬛
-⬛⬛⬛🟨🟥🟥🟨🟨🟨🟥🟨🟨🟨🟨🟨🟥🟥⬛⬛⬛⬛🟨🟥🟥🟨🟨🟨🟥🟨🟨🟨🟨🟨🟥🟥⬛⬛⬛
-⬛⬛⬛⬛🟥🟥🟨🟨🟨🟨🟨🟥🟥🟨🟨🟨⬛⬛⬛⬛⬛⬛🟥🟥🟨🟨🟨🟨🟨🟥🟥🟨🟨🟨⬛⬛⬛⬛
-⬛⬛⬛⬛🟨🟨🟨🟨🟨🟨🟥🟥🟥🟥🟨🟨⬛⬛⬛⬛⬛⬛🟨🟨🟨🟨🟨🟨🟥🟥🟥🟥🟨🟨⬛⬛⬛⬛
-⬛⬛⬛⬛⬛🟨🟥🟥🟨🟨🟥🟥🟥🟥🟨⬛⬛⬛⬛⬛⬛⬛⬛🟨🟥🟥🟨🟨🟥🟥🟥🟥🟨⬛⬛⬛⬛⬛
-⬛⬛⬛⬛⬛🟥🟥🟥🟥🟨🟨🟥🟥🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛🟥🟥🟥🟥🟨🟨🟥🟥🟨🟨⬛⬛⬛⬛⬛
-⬛⬛⬛⬛⬛⬛🟥🟥🟥🟨🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛🟥🟥🟥🟨🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛
-⬛⬛⬛⬛⬛⬛🟥🟥🟥🟨🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛🟥🟥🟥🟨🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛
-⬛⬛⬛⬛⬛⬛⬛🟥🟨🟨🟥🟥🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛🟥🟨🟨🟥🟥🟨⬛⬛⬛⬛⬛⬛⬛
-⬛⬛⬛⬛⬛⬛⬛🟨🟨🟨🟥🟥🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛🟨🟨🟨🟥🟥🟨⬛⬛⬛⬛⬛⬛⬛
-⬛⬛⬛⬛⬛⬛⬛⬛🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬛⬛⬛⬛⬛⬛⬛🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬛⬛⬛⬛⬛⬛⬛⬛🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-```
+
+https://github.com/mikesmithgh/za/assets/10135646/6f823c62-ce6d-4514-a66d-830753ea0682
 
 ## 🏃 Build and Run
 ```sh
@@ -48,4 +29,28 @@ You can use the following command to connect to `zadb` with psql.
 ```sh
 PGPASSWORD=postgrespass psql --username=postgres --host=localhost --port=5432 --dbname=zadb
 ```
-
+### Order Pizza
+```sh
+echo -n 'CgrirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJvirJsK4qyb4qyb4qyb4qyb4qyb4qyb8J+fq/Cfn6vwn5+r8J+fq/Cfn6vwn5+r8J+fq/Cfn6virJvirJvirJvirJvirJvirJvirJvirJvirJvirJvwn5+r8J+fq/Cfn6vwn5+r8J+fq/Cfn6vwn5+r8J+fq+Ksm+Ksm+Ksm+Ksm+Ksm+KsmwrirJvirJvwn5+r8J+fq/Cfn6vwn5+r8J+fq/Cfn6vwn5+r8J+fq/Cfn6vwn5+r8J+fq/Cfn6vwn5+r8J+fq/Cfn6vwn5+r4qyb4qyb8J+fq/Cfn6vwn5+r8J+fq/Cfn6vwn5+r8J+fq/Cfn6vwn5+r8J+fq/Cfn6vwn5+r8J+fq/Cfn6vwn5+r8J+fq+Ksm+KsmwrirJvirJvwn5+r8J+fq/Cfn6vwn5+r8J+fq/Cfn6vwn5+r8J+fq/Cfn6vwn5+r8J+fq/Cfn6vwn5+r8J+fq/Cfn6vwn5+r4qyb4qyb8J+fq/Cfn6vwn5+r8J+fq/Cfn6vwn5+r8J+fq/Cfn6vwn5+r8J+fq/Cfn6vwn5+r8J+fq/Cfn6vwn5+r8J+fq+Ksm+KsmwrirJvirJvwn5+r8J+fq/Cfn6vwn5+o8J+fqPCfn6jwn5+l8J+fpfCfn6Xwn5+o8J+fqPCfn6jwn5+o8J+fq/Cfn6vwn5+r4qyb4qyb8J+fq/Cfn6vwn5+r8J+fqPCfn6jwn5+o8J+fpfCfn6Xwn5+l8J+fqPCfn6jwn5+o8J+fqPCfn6vwn5+r8J+fq+Ksm+KsmwrirJvirJvirJvwn5+o8J+fqPCfn6jwn5+o8J+fqPCfn6Xwn5+l8J+fpfCfn6jwn5+o8J+fqPCfn6jwn5+l8J+fpeKsm+Ksm+Ksm+Ksm/Cfn6jwn5+o8J+fqPCfn6jwn5+o8J+fpfCfn6Xwn5+l8J+fqPCfn6jwn5+o8J+fqPCfn6Xwn5+l4qyb4qyb4qybCuKsm+Ksm+Ksm/Cfn6jwn5+l8J+fpfCfn6jwn5+o8J+fqPCfn6Xwn5+o8J+fqPCfn6jwn5+o8J+fqPCfn6Xwn5+l4qyb4qyb4qyb4qyb8J+fqPCfn6Xwn5+l8J+fqPCfn6jwn5+o8J+fpfCfn6jwn5+o8J+fqPCfn6jwn5+o8J+fpfCfn6XirJvirJvirJsK4qyb4qyb4qyb4qyb8J+fpfCfn6Xwn5+o8J+fqPCfn6jwn5+o8J+fqPCfn6Xwn5+l8J+fqPCfn6jwn5+o4qyb4qyb4qyb4qyb4qyb4qyb8J+fpfCfn6Xwn5+o8J+fqPCfn6jwn5+o8J+fqPCfn6Xwn5+l8J+fqPCfn6jwn5+o4qyb4qyb4qyb4qybCuKsm+Ksm+Ksm+Ksm/Cfn6jwn5+o8J+fqPCfn6jwn5+o8J+fqPCfn6Xwn5+l8J+fpfCfn6Xwn5+o8J+fqOKsm+Ksm+Ksm+Ksm+Ksm+Ksm/Cfn6jwn5+o8J+fqPCfn6jwn5+o8J+fqPCfn6Xwn5+l8J+fpfCfn6Xwn5+o8J+fqOKsm+Ksm+Ksm+KsmwrirJvirJvirJvirJvirJvwn5+o8J+fpfCfn6Xwn5+o8J+fqPCfn6Xwn5+l8J+fpfCfn6Xwn5+o4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb8J+fqPCfn6Xwn5+l8J+fqPCfn6jwn5+l8J+fpfCfn6Xwn5+l8J+fqOKsm+Ksm+Ksm+Ksm+KsmwrirJvirJvirJvirJvirJvwn5+l8J+fpfCfn6Xwn5+l8J+fqPCfn6jwn5+l8J+fpfCfn6jwn5+o4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb8J+fpfCfn6Xwn5+l8J+fpfCfn6jwn5+o8J+fpfCfn6Xwn5+o8J+fqOKsm+Ksm+Ksm+Ksm+KsmwrirJvirJvirJvirJvirJvirJvwn5+l8J+fpfCfn6Xwn5+o8J+fqPCfn6jwn5+o8J+fqOKsm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm/Cfn6Xwn5+l8J+fpfCfn6jwn5+o8J+fqPCfn6jwn5+o4qyb4qyb4qyb4qyb4qyb4qybCuKsm+Ksm+Ksm+Ksm+Ksm+Ksm/Cfn6Xwn5+l8J+fpfCfn6jwn5+o8J+fqPCfn6jwn5+o4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb8J+fpfCfn6Xwn5+l8J+fqPCfn6jwn5+o8J+fqPCfn6jirJvirJvirJvirJvirJvirJsK4qyb4qyb4qyb4qyb4qyb4qyb4qyb8J+fpfCfn6jwn5+o8J+fpfCfn6Xwn5+o4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb8J+fpfCfn6jwn5+o8J+fpfCfn6Xwn5+o4qyb4qyb4qyb4qyb4qyb4qyb4qybCuKsm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm/Cfn6jwn5+o8J+fqPCfn6Xwn5+l8J+fqOKsm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm/Cfn6jwn5+o8J+fqPCfn6Xwn5+l8J+fqOKsm+Ksm+Ksm+Ksm+Ksm+Ksm+KsmwrirJvirJvirJvirJvirJvirJvirJvirJvwn5+o8J+fqPCfn6jwn5+o4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb8J+fqPCfn6jwn5+o8J+fqOKsm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+KsmwrirJvirJvirJvirJvirJvirJvirJvirJvwn5+o8J+fqPCfn6jwn5+o4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb8J+fqPCfn6jwn5+o8J+fqOKsm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+KsmwrirJvirJvirJvirJvirJvirJvirJvirJvirJvwn5+o8J+fqOKsm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm/Cfn6jwn5+o4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qyb4qybCuKsm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksm+Ksmwo=' | base64 -d
+```
+```
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+⬛⬛⬛⬛⬛⬛🟫🟫🟫🟫🟫🟫🟫🟫⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛🟫🟫🟫🟫🟫🟫🟫🟫⬛⬛⬛⬛⬛⬛
+⬛⬛🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫⬛⬛🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫⬛⬛
+⬛⬛🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫⬛⬛🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫⬛⬛
+⬛⬛🟫🟫🟫🟨🟨🟨🟥🟥🟥🟨🟨🟨🟨🟫🟫🟫⬛⬛🟫🟫🟫🟨🟨🟨🟥🟥🟥🟨🟨🟨🟨🟫🟫🟫⬛⬛
+⬛⬛⬛🟨🟨🟨🟨🟨🟥🟥🟥🟨🟨🟨🟨🟥🟥⬛⬛⬛⬛🟨🟨🟨🟨🟨🟥🟥🟥🟨🟨🟨🟨🟥🟥⬛⬛⬛
+⬛⬛⬛🟨🟥🟥🟨🟨🟨🟥🟨🟨🟨🟨🟨🟥🟥⬛⬛⬛⬛🟨🟥🟥🟨🟨🟨🟥🟨🟨🟨🟨🟨🟥🟥⬛⬛⬛
+⬛⬛⬛⬛🟥🟥🟨🟨🟨🟨🟨🟥🟥🟨🟨🟨⬛⬛⬛⬛⬛⬛🟥🟥🟨🟨🟨🟨🟨🟥🟥🟨🟨🟨⬛⬛⬛⬛
+⬛⬛⬛⬛🟨🟨🟨🟨🟨🟨🟥🟥🟥🟥🟨🟨⬛⬛⬛⬛⬛⬛🟨🟨🟨🟨🟨🟨🟥🟥🟥🟥🟨🟨⬛⬛⬛⬛
+⬛⬛⬛⬛⬛🟨🟥🟥🟨🟨🟥🟥🟥🟥🟨⬛⬛⬛⬛⬛⬛⬛⬛🟨🟥🟥🟨🟨🟥🟥🟥🟥🟨⬛⬛⬛⬛⬛
+⬛⬛⬛⬛⬛🟥🟥🟥🟥🟨🟨🟥🟥🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛🟥🟥🟥🟥🟨🟨🟥🟥🟨🟨⬛⬛⬛⬛⬛
+⬛⬛⬛⬛⬛⬛🟥🟥🟥🟨🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛🟥🟥🟥🟨🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛
+⬛⬛⬛⬛⬛⬛🟥🟥🟥🟨🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛🟥🟥🟥🟨🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛
+⬛⬛⬛⬛⬛⬛⬛🟥🟨🟨🟥🟥🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛🟥🟨🟨🟥🟥🟨⬛⬛⬛⬛⬛⬛⬛
+⬛⬛⬛⬛⬛⬛⬛🟨🟨🟨🟥🟥🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛🟨🟨🟨🟥🟥🟨⬛⬛⬛⬛⬛⬛⬛
+⬛⬛⬛⬛⬛⬛⬛⬛🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛
+⬛⬛⬛⬛⬛⬛⬛⬛🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛🟨🟨🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛
+⬛⬛⬛⬛⬛⬛⬛⬛⬛🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛🟨🟨⬛⬛⬛⬛⬛⬛⬛⬛⬛
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+```
