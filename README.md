@@ -7,7 +7,7 @@ https://github.com/mikesmithgh/za/assets/10135646/6f823c62-ce6d-4514-a66d-830753
 - User and pizza information is stored in a postgres database. The postgres data directory `./postgres-data/` is mounted to
   the running docker container to persist information between sessions.
 - The database schema and migrations are managed via flyway (see [migration](./src/main/resources/db/migration/))
-- Docker Compose is used to run the `za` sprint boot application and `postgres` database
+- Docker Compose is used to run the `za` spring boot application and `postgres` database
 
 ## 🏃 Build and Run
 ```sh
