@@ -9,5 +9,3 @@ data class UserToppingsRequest(
     }
 
 }
-
-

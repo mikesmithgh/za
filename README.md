@@ -3,9 +3,20 @@ A simple pizza topping tracking system.
 
 https://github.com/mikesmithgh/za/assets/10135646/6f823c62-ce6d-4514-a66d-830753ea0682
 
+## 🤷 How does it work?
+- User and pizza information is stored in a postgres database. The postgres data directory `./postgres-data/` is mounted to
+  the running docker container to persist information between sessions.
+- The database schema and migrations are managed via flyway (see [migration](./src/main/resources/db/migration/))
+- Docker Compose is used to run the `za` sprint boot application and `postgres` database
+
 ## 🏃 Build and Run
 ```sh
 ./gradlew clean build docker && docker-compose up
+```
+
+## 🏃 Run tests
+```sh
+./gradlew test
 ```
 
 ## 👉 Endpoints
